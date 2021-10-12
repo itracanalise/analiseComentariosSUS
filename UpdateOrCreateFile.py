@@ -14,8 +14,8 @@ def get_blob_content(repo, branch, path_name):
 	return repo.get_git_blob(sha[0])
 
 def update_Data():
-    g = Github("itracanalise"," ")
-	repo = g.get_repo("itracanalise/analiseComentariosSUS")
+        g = Github("itracanalise","")
+        repo = g.get_repo("itracanalise/analiseComentariosSUS")
 
 	all_files = []
 
