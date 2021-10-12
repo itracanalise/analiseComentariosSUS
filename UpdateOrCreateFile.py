@@ -16,7 +16,6 @@ def get_blob_content(repo, branch, path_name):
 def update_Data():
     g = Github("itracanalise","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 ")
 
-	user = g.get_user()
 	repo = g.get_repo("itracanalise/analiseComentariosSUS")
 
 	all_files = []
