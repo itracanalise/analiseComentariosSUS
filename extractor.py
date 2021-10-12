@@ -109,6 +109,6 @@ def defaultExtraction(Count:int,buildGeneral=False):
 for i in range(720):
 	start_time = time.time()
 	defaultExtraction(5000,True)
-	# UpdateOrCreateFile.update_Data()
+	UpdateOrCreateFile.update_Data()
 	print("--- %s seconds ---" % (time.time() - start_time))
 	time.sleep(3600)
